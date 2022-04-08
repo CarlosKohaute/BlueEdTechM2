@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+*{
+font-family: 'League Gothic', sans-serif;
+margin: 0;
+padding: 0;
+}
+body{
+  background-color: #FFFFFF;
+}
+div.image img{
+display: flex;
+ width: 40rem;
+ margin-left: 10%;
+ margin-top: 10%;
+ background-size: cover;
+}
+
+div.login form{
+  margin-left: 60%;
+  display:flex;
+  flex-wrap: wrap;
+  width: 35%;
+}
+div.login h2{
+  font-family: 'Lato';
+font-style: normal;
+  font-size: 2rem;
+margin-top: -30rem;
+ display:flex;
+position: absolute;
+}
+div.login h1{
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 35px;
+  margin-top: -27rem;
+  margin-right: 15%;
+  position: absolute;
+
+}
+div.login label{
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: -23rem;
+  margin-right: 30%;
+  position: absolute;
+}
+div.login label.senha{
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: -15rem;
+  margin-right: 30%;
+}
+div.login input{
+  font-size: 2rem;
+  width: 35rem;  
+}
+div.login div.e-mail input{
+  margin-top: -19.8rem;
+  position: absolute;
+}
+div.login div.senha input{
+  position: absolute;
+  margin-top: -12rem;
+}
+div.login div.checkbox label{
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: -7.5rem;
+}
+div.login div.checkbox input{
+  position: absolute;
+  bottom: 41.44%;
+  margin-left: -17rem;
+  margin-bottom: -0.6vh;
+}
+div.login div.forgot a{
+  position: absolute;
+  margin-top: -7.5rem;
+  margin-left: 22rem;
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #2B6CB0;
+}
+div.login div.btn button{
+  color: #F7FAFC;
+  font-family: 'Lato';
+  font-style: normal;
+  background-color: #04C35C;
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: 0rem;
+  padding: 0.7rem 16rem ;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 1.7rem;
+}
+div.login div.google button{
+  position: absolute;
+  font-family: 'Lato';
+  font-style: normal;
+  padding: 0.7rem 6rem 0.7rem 13rem;
+ font-size: 1.7rem;
+ background-color: #1A202C;
+ color: #F7FAFC;
+ border-radius: 6px;
+}
+div.login div.google img{
+  position: absolute;
+  width: 2rem;
+  margin-left: -6vw;
+  background-color: #1A202C;
+}
+div.login div.cadastre h2{
+  position: absolute;
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 10rem;
+  margin-left: 77rem;
+}
+div.login div.cadastre a{
+  color: #2B6CB0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-left: 1rem;
+}
